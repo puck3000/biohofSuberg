@@ -12,9 +12,7 @@
 	<body>
 
 		<!-- Header -->
-		<aside>
-			<h1><a class="button special fit" href="index.html">zurück zur Startseite</a></h1>
-		</aside>
+
 
 		<!-- One -->
 			<section id="one" class="main special">
@@ -28,28 +26,64 @@
 							<hr>
 					
 					<form method="post" action="#">
-						<div class="row uniform">
+
 							<p>Ich möchte gerne folgendes bestellen:</p>
-							<div class="12u$">
-										<div class="select-wrapper">
-											<select name="demo-category" id="demo-category">
-												<option value="">- Mischpakete -</option>
-												<option value="1">Mischpaket à 32 kg</option>
-												<option value="1">Mischpaket à 32 t</option>
-												<option value="1">Mischpaket à 32 g</option>
-												<option value="1">Früchtli</option>
-											</select>
-										</div>
-									</div>										
-							<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-							<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-							<p>Die bestellten Pakete können jeweils am Samstag vormittags direkt am Biohof abgeholt und in Bar bezahlt werden. Wer einen anderen Abholtermin wünscht, darf gerne im Textfeld unten einen Vorschlag machen. Ich melde mich dann so rasch wie möglich zurück!</p>
-							<div class="12u$"><textarea name="message" id="message" placeholder="Ihre Nachricht" rows="4"></textarea></div>
-							<div class="12u$">
-								<ul class="actions">
-									<li><input type="submit" value="Nachricht senden" class="special" /></li>
-								</ul>
-							</div>
+
+								<div class="row uniform">
+									<div class="6u 12u$(xsmall)">
+		   								<h4>Mischpaket à 32kg</h4>
+		   								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestiae eveniet accusantium consectetur a tempora vero architecto, natus pariatur repellat quos dolores repudiandae deserunt consequatur dolor quasi tempore dolorum nisi.</p>									
+									</div>
+									<div class="6u 12u$(xsmall)">
+										<label for="qty"><abbr title="Quantity">Anzahl</abbr></label>
+										<input id="qty" type="number" name="quantity" min="0" max="10">
+									</div>
+								</div>
+
+								<div class="row uniform">
+									<div class="6u 12u$(xsmall)">
+		   								<h4>Mischpaket à 32t</h4>	
+		   								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestiae eveniet accusantium consectetur a tempora vero architecto, natus pariatur repellat quos dolores repudiandae deserunt consequatur dolor quasi tempore dolorum nisi.</p>								
+									</div>
+									<div class="6u 12u$(xsmall)">
+										<label for="qty"><abbr title="Quantity">Anzahl</abbr></label>
+										<input id="qty" type="number" name="quantity" min="0" max="10">
+									</div>
+								</div>
+
+								<div class="row uniform">
+									<div class="6u 12u$(xsmall)">
+		   								<h4>Mischpaket à 32g</h4>
+		   								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestiae eveniet accusantium consectetur a tempora vero architecto, natus pariatur repellat quos dolores repudiandae deserunt consequatur dolor quasi tempore dolorum nisi.</p>									
+									</div>
+									<div class="6u 12u$(xsmall)">
+										<label for="qty"><abbr title="Quantity">Anzahl</abbr></label>
+										<input id="qty" type="number" name="quantity" min="0" max="10">
+									</div>
+								</div>
+
+								<div class="row uniform">
+									<div class="6u 12u$(xsmall)">
+		   								<h4>Früchtli Spezial</h4>	
+		   								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam molestiae eveniet accusantium consectetur a tempora vero architecto, natus pariatur repellat quos dolores repudiandae deserunt consequatur dolor quasi tempore dolorum nisi.</p>								
+									</div>
+									<div class="6u 12u$(xsmall)">
+										<label for="qty"><abbr title="Quantity">Anzahl</abbr></label>
+										<input id="qty" type="number" name="quantity" min="0" max="10">
+									</div>
+								</div>
+
+							<div class="row uniform">
+								<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+								<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+								<p>Die bestellten Pakete können jeweils am Samstag vormittags direkt am Biohof abgeholt und in Bar bezahlt werden. Wer einen anderen Abholtermin wünscht, darf gerne im Textfeld unten einen Vorschlag machen. Ich melde mich dann so rasch wie möglich zurück!</p>
+								<div class="12u$"><textarea name="message" id="message" placeholder="Ihre Nachricht" rows="4"></textarea></div>
+								<div class="12u$">
+									<ul class="actions">
+										<li><input type="submit" value="Nachricht senden" class="special" /></li>
+									</ul>
+								</div>
+							 </div>										
 						</div>
 					</form>
 						
@@ -60,16 +94,17 @@
 
 		<!-- Footer -->
 			<section id="footer">
-			<div class="container">
+				<div class="container">
+					<a class="button special fit" href="index.html">zurück zur Startseite</a>
 					<img class="fit" src="images/bioknospe.gif" alt="Bio Knospe">
 				</div>
 				<footer>
 					<ul class="icons">
 						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-<!-- 						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li> -->
+ 						<!-- <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Biohof Inselmatt</li><li>Web: <a target="_blank" href="http://lerchpanther.ch">Lerch & Panther</a></li>
